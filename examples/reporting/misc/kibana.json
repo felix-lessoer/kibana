@@ -1,0 +1,36 @@
+{
+  "owner": {
+    "name": "FelixRoessel",
+    "githubTeam": ""
+  },
+  "version": "8.11.3",
+  "description": "Using Scroll API for CSV Exports.",
+  "id": "reportingScrollApi",
+  "server": true,
+  "ui": true,
+  "requiredPlugins": [
+    "data",
+    "discover",
+    "fieldFormats",
+    "esUiShared",
+    "home",
+    "management",
+    "licensing",
+    "uiActions",
+    "taskManager",
+    "embeddable",
+    "screenshotMode",
+    "share",
+    "features"
+  ],
+  "optionalPlugins": [
+    "security",
+    "spaces",
+    "usageCollection",
+    "screenshotting"
+  ],
+  "requiredBundles": [
+    "kibanaReact",
+    "discover"
+  ]
+}

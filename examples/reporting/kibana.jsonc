@@ -1,0 +1,36 @@
+{
+  "description": "Using Scroll API for CSV Exports.",
+  "type": "plugin",
+  "owner": "@felixroessel",
+  "id": "@kbn/reportingScrollApi",
+  "plugin": {
+    "id": "reportingScrollApi",
+    "server": true,
+    "browser": true,
+    "requiredPlugins": [
+      "data",
+      "discover",
+      "fieldFormats",
+      "esUiShared",
+      "home",
+      "management",
+      "licensing",
+      "uiActions",
+      "taskManager",
+      "embeddable",
+      "screenshotting",
+      "screenshotMode",
+      "share",
+      "features"
+    ],
+    "optionalPlugins": [
+      "security",
+      "spaces",
+      "usageCollection"
+    ],
+    "requiredBundles": [
+      "kibanaReact",
+      "discover"
+    ]
+  }
+}
